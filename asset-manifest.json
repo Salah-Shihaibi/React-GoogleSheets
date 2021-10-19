@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Aviation-React-GoogleSheets/static/css/main.1bed6e32.chunk.css",
-    "main.js": "/Aviation-React-GoogleSheets/static/js/main.ddcf6e15.chunk.js",
-    "main.js.map": "/Aviation-React-GoogleSheets/static/js/main.ddcf6e15.chunk.js.map",
-    "runtime-main.js": "/Aviation-React-GoogleSheets/static/js/runtime-main.83dd7d4a.js",
-    "runtime-main.js.map": "/Aviation-React-GoogleSheets/static/js/runtime-main.83dd7d4a.js.map",
-    "static/js/2.cdc6550e.chunk.js": "/Aviation-React-GoogleSheets/static/js/2.cdc6550e.chunk.js",
-    "static/js/2.cdc6550e.chunk.js.map": "/Aviation-React-GoogleSheets/static/js/2.cdc6550e.chunk.js.map",
-    "static/js/3.1a33e172.chunk.js": "/Aviation-React-GoogleSheets/static/js/3.1a33e172.chunk.js",
-    "static/js/3.1a33e172.chunk.js.map": "/Aviation-React-GoogleSheets/static/js/3.1a33e172.chunk.js.map",
-    "index.html": "/Aviation-React-GoogleSheets/index.html",
-    "static/css/main.1bed6e32.chunk.css.map": "/Aviation-React-GoogleSheets/static/css/main.1bed6e32.chunk.css.map",
-    "static/js/2.cdc6550e.chunk.js.LICENSE.txt": "/Aviation-React-GoogleSheets/static/js/2.cdc6550e.chunk.js.LICENSE.txt"
+    "main.css": "/React-GoogleSheets/static/css/main.1bed6e32.chunk.css",
+    "main.js": "/React-GoogleSheets/static/js/main.ddcf6e15.chunk.js",
+    "main.js.map": "/React-GoogleSheets/static/js/main.ddcf6e15.chunk.js.map",
+    "runtime-main.js": "/React-GoogleSheets/static/js/runtime-main.081f3291.js",
+    "runtime-main.js.map": "/React-GoogleSheets/static/js/runtime-main.081f3291.js.map",
+    "static/js/2.cdc6550e.chunk.js": "/React-GoogleSheets/static/js/2.cdc6550e.chunk.js",
+    "static/js/2.cdc6550e.chunk.js.map": "/React-GoogleSheets/static/js/2.cdc6550e.chunk.js.map",
+    "static/js/3.1a33e172.chunk.js": "/React-GoogleSheets/static/js/3.1a33e172.chunk.js",
+    "static/js/3.1a33e172.chunk.js.map": "/React-GoogleSheets/static/js/3.1a33e172.chunk.js.map",
+    "index.html": "/React-GoogleSheets/index.html",
+    "static/css/main.1bed6e32.chunk.css.map": "/React-GoogleSheets/static/css/main.1bed6e32.chunk.css.map",
+    "static/js/2.cdc6550e.chunk.js.LICENSE.txt": "/React-GoogleSheets/static/js/2.cdc6550e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.83dd7d4a.js",
+    "static/js/runtime-main.081f3291.js",
     "static/js/2.cdc6550e.chunk.js",
     "static/css/main.1bed6e32.chunk.css",
     "static/js/main.ddcf6e15.chunk.js"
