@@ -1,4 +1,5 @@
 {
+  "homepage": "https://salah-shihaibi.github.io/Aviation-React-GoogleSheets",
   "name": "aviation",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +15,6 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://Salah-Shihaibi.github.io/Aviation-React-GoogleSheets",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
