@@ -3,6 +3,7 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 import Error404 from "./Pages/404";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Products from "./Pages/Products";
 
 
 //rafce
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} />
+        <Route path="/products" component={Products} />
         <Route path="/*" component={Error404} />
       </Switch>
     </HashRouter>
