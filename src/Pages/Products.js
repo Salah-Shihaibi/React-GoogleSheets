@@ -13,7 +13,6 @@ const Products = () => {
   /* GET Products page. */
   const [products, setProducts] = useState(["loading"]);
   const [items, setItems] = useState([]);
-  const [finds, setFinds] = useState(['goBack']);
 
   useEffect(() => {
     const initialisePageContent = async () => {
@@ -30,27 +29,18 @@ const Products = () => {
         <LoadingPage />
       </>
     );
-  } else if (products.length === 0) {
-    return (
-      <>
-        <title>APTS PRODUCTS</title>
-        <Navbar />
-        <HeaderTitle title={"What We Offer"} />
-        <Search setSearch={setProducts} items={items} setFinds={setFinds} finds={finds}/>
-        <NoSearchResults  setSearch={setProducts} items={items} finds={finds}/>
-        <Footer />
-      </>
-    );
   } else {
     return (
       <>
         <title>APTS PRODUCTS</title>
         <Navbar />
         <HeaderTitle title={"What We Offer"} />
-        <Search setSearch={setProducts} items={items} setFinds={setFinds} finds={finds} />
+        <Search setSearch={setProducts} items={items}/>
         <section className="container mb-2 flex-center">
           <Cells contents={products} col={"col-3"} button={"Read More"} />
         </section>
+        {products.length === 0 && 
+        <NoSearchResults  setSearch={setProducts} items={items}/>}
         <Footer />
       </>
     );

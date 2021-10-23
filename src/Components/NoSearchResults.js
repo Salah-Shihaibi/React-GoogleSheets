@@ -1,20 +1,10 @@
-import { useHistory } from "react-router-dom";
-const NoSearchResults = ({setSearch,items,finds}) => {
-  const history = useHistory(); //() => {history.go(0);}
-  const searchPage = () => {
-    if(finds.slice(-2)==='goBack') history.go(0);
-    const searching = new RegExp(finds.slice(-2,-1), "i");
-    setSearch(
-      items.filter(
-        (cell) =>
-          searching.test(cell[0].toString()) ||
-          searching.test(cell[1].toString())
-      )
-    );
-  };
+const NoSearchResults = ({setSearch,items}) => {
+  const showAll = () => {
+    setSearch(items)
+  }
   return (
     <>
-      <div className="p-5">
+      <div className="px-5 mb-5">
         <p>
           <h4>No Results (Try a different keyword)</h4>
           <br />
@@ -31,9 +21,9 @@ const NoSearchResults = ({setSearch,items,finds}) => {
           </button>
           <button
             className="button btn-o-red"
-            onClick={searchPage}
+            onClick={showAll}
           >
-            Go Back
+           Show All
           </button>
         </div>
       </div>

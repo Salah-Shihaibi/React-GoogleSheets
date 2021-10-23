@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
 
-const Search = ({ setSearch, items, setFinds, finds}) => {
+const Search = ({ setSearch, items}) => {
   const [find, setFind] = useState("");
 
   const searchPage = () => {
@@ -9,7 +8,6 @@ const Search = ({ setSearch, items, setFinds, finds}) => {
       setSearch(items.filter(
         (cell) => searching.test(cell[0].toString()) || searching.test(cell[1].toString())
       ));
-      setFinds([...finds,find]);
   };
 
   const searchContent = (e) => {
