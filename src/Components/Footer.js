@@ -37,10 +37,10 @@ const Footer = () => {
         </section>
         
         <section className="container-nav bg-dark vertical-center">
-          <div className="col-3 flex-center">
-            <p className="">© 2021 APTS Aviation Company</p>
+          <div className="col-4 flex-center">
+            <p className=""> © 2021 APTS Aviation Company</p>
           </div>
-          <div className="col-6 flex-center gap-2">
+          <div className="col-4 flex-center gap-5">
             <a
               href="#!"
               className="icon-fb"
@@ -63,7 +63,7 @@ const Footer = () => {
               <i className="fas fa-envelope-square"></i>
             </a>
           </div>
-          <div className="col-3 flex-center">
+          <div className="col-4 flex-center">
             <p className="">Powered by high tech limited</p>
           </div>
         </section>

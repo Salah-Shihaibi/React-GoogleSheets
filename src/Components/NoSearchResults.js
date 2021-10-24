@@ -1,10 +1,7 @@
-const NoSearchResults = ({setSearch,items}) => {
-  const showAll = () => {
-    setSearch(items)
-  }
+const NoSearchResults = ({setNoResult}) => {
   return (
     <>
-      <div className="px-5 mb-5">
+      <div className="p-5">
         <p>
           <h4>No Results (Try a different keyword)</h4>
           <br />
@@ -21,9 +18,9 @@ const NoSearchResults = ({setSearch,items}) => {
           </button>
           <button
             className="button btn-o-red"
-            onClick={showAll}
+            onClick={()=>{setNoResult(false)}}
           >
-           Show All
+           Go Back
           </button>
         </div>
       </div>
